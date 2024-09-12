@@ -53,3 +53,7 @@ UPDATE people SET department_id = 3 WHERE person_id = 2;
 UPDATE people SET department_id = 4 WHERE person_id = 3;
 UPDATE people SET department_id = 5 WHERE person_id = 4;
 UPDATE people SET department_id = 5 WHERE person_id = 6;
+
+-- Q5
+
+SELECT name, age FROM people WHERE gender = 1 ORDER BY age DESC;
