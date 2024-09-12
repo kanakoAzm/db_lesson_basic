@@ -45,3 +45,11 @@ INSERT INTO reports (person_id, content)
   (14, 'お疲れ様です。経理レッスン１が終わりました。'),
   (15, 'お疲れ様です。人事レッスン1が終わりました。'),
   (16, 'お疲れ様です。情報システムレッスン1が終わりました。');
+
+  -- Q4
+
+UPDATE people SET department_id = 1 WHERE person_id = 1;
+UPDATE people SET department_id = 3 WHERE person_id = 2;
+UPDATE people SET department_id = 4 WHERE person_id = 3;
+UPDATE people SET department_id = 5 WHERE person_id = 4;
+UPDATE people SET department_id = 5 WHERE person_id = 6;
