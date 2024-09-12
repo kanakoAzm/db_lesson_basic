@@ -57,3 +57,13 @@ UPDATE people SET department_id = 5 WHERE person_id = 6;
 -- Q5
 
 SELECT name, age FROM people WHERE gender = 1 ORDER BY age DESC;
+
+-- Q6
+
+nameカラム、emailカラム、ageカラムのレコードを取得する。
+
+peopleテーブルから
+
+department_idが1のレコード
+
+created_atカラムのレコードを並び替える。
